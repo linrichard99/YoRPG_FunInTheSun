@@ -3,7 +3,7 @@
 //HW28 -- Ye Olde Role Playing Game, Expanded
 //2015 - 11 - 14
 
-public class Character {
+public abstract class Character {
     protected String name = "";
     protected int hp = 0;
     protected int strength = 0;
@@ -36,20 +36,12 @@ public class Character {
         return dmg;
     }
     
-    public void specialize(){
-        defense = defense - 3;
-        attackRating = attackRating + 0.4;
-    }
+    public abstract void specialize();
 
     //normalize: brings Character back to normal
-    public void normalize() {
-        defense = 7;
-        attackRating = 0.3;
-    }
+    public abstract void normalize();
     
-    public static String about() {
-        return "";
-    }
+    public abstract String about();
     
     
 }

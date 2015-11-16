@@ -25,4 +25,8 @@ public class Ranger extends Character{
         defense = 10;
         attackRating = 0.2;
     }
+
+    public String about() {
+	return "The Range Class. It has average HP and Strength, and high Defense";
+    }
 }

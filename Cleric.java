@@ -25,4 +25,8 @@ public class Cleric extends Character{
         defense = 3;
         attackRating = 0.5;
     }
+
+    public String about() {
+	return "The Healing Class. It has low HP and low denfense, but high strength";
+    }
 }

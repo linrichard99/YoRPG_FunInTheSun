@@ -12,4 +12,19 @@ public class Monster extends Character{
         defense = 10;
         attackRating = .7;
     }
+
+    public void specialize() {
+	defense = defense - 3;
+	attackRating = attackRating + 0.4;
+    }
+
+    public void normalize() {
+	defense = 10;
+	attackRating = 0.7;
+    }
+
+    public String about() {
+	return "The Enemy";
+    }
+	
 }

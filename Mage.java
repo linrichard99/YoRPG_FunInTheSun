@@ -25,4 +25,8 @@ public class Mage extends Character{
         defense = 5;
         attackRating = 0.3;
     }
+
+    public String about() {
+	return "The Magic Class. It has low HP and medium defense, but high attack";
+    }
 }

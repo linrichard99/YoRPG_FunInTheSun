@@ -25,4 +25,8 @@ public class Rogue extends Character{
         defense = 9;
         attackRating = 0.5;
     }
+
+    public String about() {
+	return "The Thief Class";
+    }
 }

@@ -26,7 +26,7 @@ public class Warrior extends Character{
         attackRating = 0.3;
     }
     
-    public static String about() {
-        return "";
+    public String about() {
+        return "The Warrior Class. It has medium HP, but high strength and defense";
     }
 }
